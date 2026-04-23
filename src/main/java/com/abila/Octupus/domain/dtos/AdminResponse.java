@@ -1,6 +1,6 @@
 package com.abila.Octupus.domain.dtos;
 
-import com.abila.Octupus.domain.Admins;
+import com.abila.Octupus.domain.Admin;
 
 public record AdminResponse(
         Integer id,
@@ -9,13 +9,13 @@ public record AdminResponse(
         String documento,
         String cargo
 ) {
-    public AdminResponse(Admins admins){
+    public AdminResponse(Admin admin){
         this(
-                admins.getId(),
-                admins.getNome(),
-                admins.getIdade(),
-                admins.getDocumento(),
-                admins.getCargo()
+                admin.getId(),
+                admin.getNome(),
+                admin.getIdade(),
+                admin.getDocumento(),
+                admin.getCargo()
         );
     }
 }

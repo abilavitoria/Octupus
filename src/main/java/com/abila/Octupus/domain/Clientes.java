@@ -4,7 +4,9 @@ import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import org.hibernate.action.internal.OrphanRemovalAction;
 
+import java.lang.reflect.Type;
 import java.util.List;
 
 @Data
@@ -15,6 +17,7 @@ import java.util.List;
 @Table(name = "clientes")
 public class Clientes {
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
     @Column(length = 100, nullable = false)
     private String nome;
@@ -26,5 +29,6 @@ public class Clientes {
     private String tipo_conta;
 
     @OneToMany
+    @JoinColumn(name = "cliente_id")
     private List<Vendas> vendas;
 }
