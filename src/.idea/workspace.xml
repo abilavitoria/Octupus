@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="62668262-e1b9-47e2-a5a8-6237dccc72fa" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/java/com/abila/Octupus/OctupusApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/java/com/abila/Octupus/domain/Admin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/java/com/abila/Octupus/domain/Clientes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/java/com/abila/Octupus/domain/ItemVendas.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/java/com/abila/Octupus/domain/Produtos.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/java/com/abila/Octupus/domain/Vendas.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/java/com/abila/Octupus/domain/dtos/AdminRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/java/com/abila/Octupus/domain/dtos/AdminResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/java/com/abila/Octupus/domain/dtos/ClienteRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/java/com/abila/Octupus/domain/dtos/ClienteResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/java/com/abila/Octupus/domain/dtos/ProdutoResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/java/com/abila/Octupus/domain/dtos/ProdutoRquest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/java/com/abila/Octupus/repository/AdminsRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/java/com/abila/Octupus/repository/ClientesRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/java/com/abila/Octupus/repository/ItemVendas.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/java/com/abila/Octupus/repository/ProdutosRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/java/com/abila/Octupus/repository/VendasRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/java/com/abila/Octupus/service/AdminService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/java/com/abila/Octupus/service/ClientesService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/java/com/abila/Octupus/service/ProdutoService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/java/com/abila/Octupus/service/VendasService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/resources/db/migration/V1__create-table-admins.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/resources/db/migration/V2__create-table.clientes.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/resources/db/migration/V3__create-table-produto.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/resources/db/migration/V4__create-table-vendas.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/resources/db/migration/V5__create-table-item_vendas.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/java/com/abila/Octupus/OctupusApplicationTests.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 1
+}]]></component>
+  <component name="ProjectId" id="3FYROgJ2zi1wUCglFEDDXkUSAAl" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Rodrigo/Documents/GitHub/Octupus/src",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="62668262-e1b9-47e2-a5a8-6237dccc72fa" name="Changes" comment="" />
+      <created>1782249985985</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1782249985985</updated>
+    </task>
+    <servers />
+  </component>
+</project>
