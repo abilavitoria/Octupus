@@ -1,0 +1,64 @@
+package com.octupus.pilot.core.usuario;
+
+import com.octupus.pilot.core.BaseEntity;
+import jakarta.persistence.Column;
+import jakarta.persistence.Entity;
+import jakarta.persistence.EnumType;
+import jakarta.persistence.Enumerated;
+import jakarta.validation.constraints.Email;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+import org.jspecify.annotations.Nullable;
+import org.springframework.security.core.GrantedAuthority;
+import org.springframework.security.core.authority.SimpleGrantedAuthority;
+import org.springframework.security.core.userdetails.UserDetails;
+
+import java.util.Collection;
+import java.util.List;
+
+@Entity
+@Data
+@NoArgsConstructor
+public class Usuario extends BaseEntity implements UserDetails {
+
+    @Email
+    @Column(length = 150, nullable = false, unique = true)
+    private String email;
+
+    @Column(length = 255, nullable = false)
+    private String senha;
+
+    @Enumerated(EnumType.STRING)
+    @Column(length = 20, nullable = false)
+    private UsuarioStatus status;
+
+    @Enumerated(EnumType.STRING)
+    @Column(length = 20, nullable = false)
+    private UsuarioRole role;
+
+    @Column(length = 50)
+    private String tenant_id;
+
+    @Override
+    public Collection<? extends GrantedAuthority> getAuthorities() {
+        return List.of(new SimpleGrantedAuthority("ROLE_" + this.role.name()));
+    }
+
+    @Override
+    public @Nullable String getPassword(){return this.senha;}
+
+    @Override
+    public String getUsername() {return this.email;}
+
+    @Override
+    public boolean isAccountNonExpired() {return true;}
+
+    @Override
+    public boolean isAccountNonLocked() {return this.status != UsuarioStatus.BLOQUEADO;}
+
+    @Override
+    public boolean isCredentialsNonExpired() {return true;}
+
+    @Override
+    public boolean isEnabled() {return this.status == UsuarioStatus.ATIVO;}
+}
